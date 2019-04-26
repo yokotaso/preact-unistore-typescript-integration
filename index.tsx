@@ -35,10 +35,10 @@ const actions : Actions = {
     }
 };
 
-const App = connect(mapStateToProps, actions)(props  => {
+const App = connect<{}, {}, State, Partial<CountUpProps>>(mapStateToProps, actions)(props  => {
     return (
         <div>
-            <CountUp {...props} />
+            <CountUp count={props.count!} increment={props.increment!} />
         </div>
     );
 });
