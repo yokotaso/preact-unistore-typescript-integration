@@ -1,0 +1,39 @@
+{
+  "name": "preact-unistore-typescript-integration",
+  "version": "1.0.0",
+  "description": "Preact,Unistore,TypeScript integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yokotaso/preact-unistore-typescript-integration.git"
+  },
+  "author": "YOKOTA tomoya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yokotaso/preact-unistore-typescript-integration/issues"
+  },
+  "homepage": "https://github.com/yokotaso/preact-unistore-typescript-integration#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "typescript": "^3.4.5",
+    "@types/node": "^11.13.4",
+    "babel-loader": "^8.0.5",
+    "fork-ts-checker-webpack-plugin": "^1.0.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "preact": "^10.0.0-beta.0",
+    "unistore": "^3.4.1"
+  }
+}
